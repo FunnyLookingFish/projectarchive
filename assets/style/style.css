@@ -1,4 +1,9 @@
-img {
-    
-    
+body {
+    font-family: serif, monospace, sans-serif;
+    background-color: rgba(154, 74, 210, 0.75);
 }
+
+img {
+    max-width: 300px;
+}
+
