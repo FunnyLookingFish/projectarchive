@@ -1,9 +1,63 @@
+header{
+    background-color: rgb(178, 176, 176);
+}
+
 body {
     font-family: serif, monospace, sans-serif;
     background-color: rgba(154, 74, 210, 0.75);
 }
 
 img {
+    margin-top: 30px;
     max-width: 300px;
+    display: block;
+    contain: test;
 }
 
+nav {    
+    position: absolute;
+    right: 10px;
+}
+
+button {
+    font-size: 17px;
+    width: 220px;
+    height: 56px;
+    float: left;
+    background-color: rgb(41 116 164 / 79%);
+    border: 3px solid rgb(41 116 164 / 79%);
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: rgba(21, 187, 98, 0.736);
+    opacity: 1;
+}
+
+h1 {
+    color: rgb(255 255 255);
+    border: max-width;
+    border: max-height;
+}
+
+span {
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    font-size: 60px;
+}
+
+p {
+    box-sizing: content-box;
+    font-size: xx-large;
+}
+
+#faucet {
+    max-width: 400px;
+    margin-right: auto;
+    position: relative;
+}
