@@ -1,22 +1,28 @@
 header{
-    background-color: rgb(178, 176, 176);
+
 }
 
 body {
     font-family: serif, monospace, sans-serif;
-    background-color: rgba(154, 74, 210, 0.75);
+    background: 
+    linear-gradient(217deg, rgb(188 97 97 / 80%), rgb(3 2 2 / 0%) 70.71%), 
+    linear-gradient(134deg, rgb(0 144 255 / 82%), rgba(0,255,0,0) 70.71%), 
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
+
+/* background-color: rgba(154, 74, 210, 0.75); */
 
 img {
     margin-top: 30px;
     max-width: 300px;
-    display: block;
+    display: flex;
     contain: test;
+    object-position: right;
 }
 
 nav {    
     position: absolute;
-    right: 10px;
+    right: 1px
 }
 
 button {
@@ -31,6 +37,7 @@ button {
     text-align: center;
     opacity: 0.6;
     transition: 0.4s;
+    text-shadow: 1px 1px 1px #291414, 1px 2px 1px #291414;
 }
 
 button:hover {
@@ -38,26 +45,95 @@ button:hover {
     opacity: 1;
 }
 
-h1 {
+.name {
     color: rgb(255 255 255);
     border: max-width;
     border: max-height;
 }
 
-span {
+.site-name {
     background-color: black;
     border-style: solid;
     border-color: black;
-    font-size: 60px;
+    font-size: 20px;
 }
 
 p {
-    box-sizing: content-box;
+    display: block;
+    background: linear-gradient(19deg, rgb(75 220 220 / 57%), rgb(89 93 93 / 18%) 69%);
     font-size: xx-large;
+    text-align: inherit;
+    max-width: 832px;
+    text-shadow: 1px 1px 1px #6a5353, 1px 2px 1px #9e9b9b;
 }
 
-#faucet {
+.faucet {
+    display: flex;
     max-width: 400px;
-    margin-right: auto;
-    position: relative;
+    margin-top: 58px;
+    padding-left: 100px;
+    margin-left: 1018px;
 }
+
+h1 {
+    font-size: bolder;
+    box-shadow: text-shadow: 1px 1px 1px white, 2px 2px 1px white;
+}
+
+.left {
+    background: linear-gradient(19deg, rgb(75 220 220 / 57%), rgb(89 93 93 / 18%) 69%);
+    text-shadow: 1px 1px 1px #6a5353, 1px 2px 1px #9e9b9b;
+    display: block;
+    max-width: 265px;
+    max-height: 50px;
+    font-size: 40px;
+}
+
+.right {
+    background: linear-gradient(19deg, rgb(75 220 220 / 57%), rgb(89 93 93 / 18%) 69%);
+    text-shadow: 1px 1px 1px #6a5353, 1px 2px 1px #9e9b9b;
+    display: block;
+    max-width: 400px;
+    max-height: 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 0px;
+    margin-left: 1110px;
+    
+}
+
+#right {
+    padding-left: 0px;
+    margin-left: 750px;
+}
+
+a {
+    outline: red;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: #e7d1db;
+    
+}
+
+ul {
+    display: flex;
+    align-items: stretch;
+}
+
+/*.right1 {
+    background: linear-gradient(19deg, rgb(75 220 220 / 57%), rgb(89 93 93 / 18%) 69%);
+    text-shadow: 1px 1px 1px #6a5353, 1px 2px 1px #9e9b9b;
+    display: block;
+    max-width: 254px;
+    max-height: 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 0px;
+    margin-left: 1248px;
+    
+}*/
